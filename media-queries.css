@@ -77,3 +77,53 @@ footer{
     margin-top: 16px;
     padding: 2px;
 }
+
+@media screen and (min-width: 365px){
+    h1 {
+        float: left;
+        display:inline-block;
+        padding-bottom: 25px;
+    }
+    nav {
+        float: right;
+        display: inline-block;
+    }
+    ul{
+        display: inline-block;
+    }
+    li{
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .alert-info{
+        visibility: hidden;
+    }
+    .main{
+        float: left;
+        width: 25%;
+        clear: right;
+    }
+    .sub-section{
+        width: 25%;
+        display: inline-block;
+        clear: right;
+        float: right;
+
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 250px;
+    }
+    p{
+        float: left;
+        display: inline-block;
+    }
+    #social-media-links{
+        float: right;
+        display: inline-block;
+    }
+}
