@@ -116,7 +116,8 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 250px;
+
+
     }
     p{
         float: left;
@@ -125,5 +126,6 @@ footer{
     #social-media-links{
         float: right;
         display: inline-block;
+        clear: both;
     }
 }
